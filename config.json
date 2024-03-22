@@ -1,0 +1,21 @@
+{
+    "aiBlacklist":true,
+    "blacklistedWords":
+    ["do",
+    "my",
+    "homework",
+    "write",
+    "me",
+    "an",
+    "a",
+    "essay",
+    "solve",
+    "math",
+    "problem",
+    "this",
+    "math",
+    "the",
+    "about",
+    "what is"],
+    "allowExamples":true    
+}
