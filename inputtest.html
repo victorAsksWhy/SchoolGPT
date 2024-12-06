@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <title>inputtest</title>
+        <h1>enter</h1>
+        <input type="text" id="testInput" placeholder="type input">
+        <button onclick="read()">read input</button>
+        <h3>you input: <span id="value"></span></h3>
+        <script>
+            function read(){
+                var value = document.getElementById("testInput").value;
+                document.getElementById("value").textContent=value;
+            }
+        </script>
+    </body>
+</html>
